@@ -1,0 +1,15 @@
+com\periNimble\custom\processors\sample\PeriNimble_Multiple_Relation$Callback.class
+com\periNimble\custom\processors\sample\HighCheck.class
+com\periNimble\custom\processors\sample\Measures.class
+com\periNimble\custom\processors\sample\DatabaseConnector.class
+com\periNimble\custom\processors\sample\HighCheck$Callback.class
+com\periNimble\custom\processors\sample\Root.class
+com\periNimble\custom\processors\sample\Database.class
+com\periNimble\custom\processors\sample\PeriNimble_Multiple_Relation.class
+com\periNimble\custom\processors\sample\MeasureInterval.class
+com\periNimble\custom\processors\sample\User.class
+com\periNimble\custom\processors\sample\PeriNimble$Callback.class
+com\periNimble\custom\processors\sample\MeasureIntervals.class
+com\periNimble\custom\processors\sample\UpdatedMeasureInterval.class
+com\periNimble\custom\processors\sample\PeriNimble.class
+com\periNimble\custom\processors\sample\Read.class

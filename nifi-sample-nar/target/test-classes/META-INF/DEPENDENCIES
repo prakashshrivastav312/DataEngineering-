@@ -1,0 +1,97 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-sample-nar
+
+
+From: 'an unknown organization'
+  - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
+    License: BSD License  (http://www.antlr.org/license.html)
+  - javax.persistence-api (https://github.com/javaee/jpa-spec) javax.persistence:javax.persistence-api:jar:2.2
+    License: Eclipse Public License v1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - persistence-api  javax.persistence:persistence-api:jar:1.0.2
+
+  - Byte Buddy (without dependencies) (http://bytebuddy.net/byte-buddy) net.bytebuddy:byte-buddy:jar:1.9.10
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hibernate Validator Engine (http://hibernate.org/validator/hibernate-validator) org.hibernate.validator:hibernate-validator:jar:6.2.4.Final
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Extended StAX API (http://stax-ex.java.net/) org.jvnet.staxex:stax-ex:jar:1.8
+    License: Dual license consisting of the CDDL v1.1 and GPL v2  (https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html)
+  - Project Lombok (https://projectlombok.org) org.projectlombok:lombok:jar:1.18.24
+    License: The MIT License  (https://projectlombok.org/LICENSE)
+
+From: 'Apache NiFi Project' (https://nifi.apache.org/)
+  - nifi-sample-processors (https://nifi.apache.org/nifi-nar-bundles/nifi-custom-processor/nifi-sample-processors) com.periNimble.custom:nifi-sample-processors:jar:1.0-SNAPSHOT
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-utils (https://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.14.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+  - Jakarta Persistence API (https://github.com/eclipse-ee4j/jpa-api) jakarta.persistence:jakarta.persistence-api:jar:2.2.3
+    License: Eclipse Public License v. 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - Jakarta Bean Validation API (https://beanvalidation.org) jakarta.validation:jakarta.validation-api:jar:2.0.2
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.13.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'fasterxml.com' (https://fasterxml.com)
+  - ClassMate (https://github.com/FasterXML/java-classmate) com.fasterxml:classmate:bundle:1.5.1
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Hibernate.org' (http://hibernate.org)
+  - Hibernate Commons Annotations (http://hibernate.org) org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final
+    License: GNU Library General Public License v2.1 or later  (http://www.opensource.org/licenses/LGPL-2.1)
+
+From: 'Hibernate.org' (https://hibernate.org)
+  - Hibernate ORM - hibernate-core (https://hibernate.org/orm) org.hibernate:hibernate-core:jar:5.6.5.Final
+    License: GNU Library General Public License v2.1 or later  (https://www.opensource.org/licenses/LGPL-2.1)
+
+From: 'JBoss by Red Hat' (http://www.jboss.org)
+  - Java Annotation Indexer (http://www.jboss.org/jandex) org.jboss:jandex:bundle:2.4.2.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JBoss Logging 3 (http://www.jboss.org) org.jboss.logging:jboss-logging:jar:3.4.3.Final
+    License: Apache License, version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Transaction API (http://www.jboss.org/jboss-transaction-api_1.2_spec) org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final
+    License: Common Development and Distribution License  (http://repository.jboss.org/licenses/cddl.txt)    License: GNU General Public License, Version 2 with the Classpath Exception  (http://repository.jboss.org/licenses/gpl-2.0-ce.txt)
+
+From: 'Oracle' (http://www.oracle.com)
+  - JavaBeans Activation Framework API jar (http://java.net/all/javax.activation-api/) javax.activation:javax.activation-api:jar:1.2.0
+    License: CDDL/GPLv2+CE  (https://github.com/javaee/activation/blob/master/LICENSE.txt)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - istack common utility code runtime (http://java.net/istack-commons/istack-commons-runtime/) com.sun.istack:istack-commons-runtime:jar:3.0.7
+    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - Old JAXB Core (http://jaxb.java.net/jaxb-bundles/jaxb-core) com.sun.xml.bind:jaxb-core:jar:2.3.0
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - Old JAXB Runtime (http://jaxb.java.net/jaxb-bundles/jaxb-impl) com.sun.xml.bind:jaxb-impl:jar:2.3.0
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jaxb-api (https://github.com/javaee/jaxb-spec/jaxb-api) javax.xml.bind:jaxb-api:jar:2.3.0
+    License: CDDL 1.1  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)    License: GPL2 w/ CPE  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)
+  - JAXB Runtime (http://jaxb.java.net/jaxb-runtime-parent/jaxb-runtime) org.glassfish.jaxb:jaxb-runtime:jar:2.3.1
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - TXW2 Runtime (http://jaxb.java.net/jaxb-txw-parent/txw2) org.glassfish.jaxb:txw2:jar:2.3.1
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'Oracle Corpration' (http://www.oracle.com)
+  - fastinfoset (http://fi.java.net) com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15
+    License: Apache License, Version 2.0  (http://www.opensource.org/licenses/apache2.0.php)
+
+From: 'PostgreSQL Global Development Group' (https://jdbc.postgresql.org/)
+  - PostgreSQL JDBC Driver - JDBC 4.2 (https://github.com/pgjdbc/pgjdbc) org.postgresql:postgresql:bundle:42.2.5
+    License: BSD-2-Clause  (https://jdbc.postgresql.org/about/license.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - htrace-core4 (http://incubator.apache.org/projects/htrace.html) org.apache.htrace:htrace-core4:jar:4.1.0-incubating
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+
